@@ -2377,8 +2377,6 @@ function () {
     g.changeGameplayMode(1)
   };
   g.playerDies = function (b) {
-    g.playerDyingId = b;
-    g.changeGameplayMode(2)
   };
   g.detectCollisions = function () {
     g.tilesChanged = e;
